@@ -19,7 +19,7 @@ export default function PortfolioExample() {
   const projects = useMemo(
     () => [
       {
-        title: "Khufu Ankh",
+        title: "Khufu Ankh!!!",
         subtitle: "Parametric glass pavilion for structural and environmental integration",
         description:
           "A concept-driven museum pavilion for the Khufu ship in Giza, where geometry, environmental constraints, and structural behaviour are resolved within a single parametric system.",
@@ -81,7 +81,7 @@ export default function PortfolioExample() {
         },
       },
       {
-        title: "Informatics",
+        title: "BrickNest",
         subtitle: "Robotic assembly and design system",
         description:
           "A project focused on a robotic assembly and design workflow, using a robotic arm as part of the link between geometric definition, sequencing, and fabrication logic.",
