@@ -141,12 +141,12 @@ export default function PortfolioExample() {
             },
             {
               title: "Data Tree Logic",
-              caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
+              caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage, geometry, layout, and annotations share the same structure.",
               image: "/images/study/study_01.png", 
             },
             {
               title: "Pipeline Structure",
-              caption: "The script is organized into discrete, color-coded clusters — Base, Data Structure, 3D Geometry, Layout, Annotations, Baking — each with documented inputs and outputs.",
+              caption: "The script is organized into discrete, color-coded clusters; Base, Data Structure, 3D Geometry, Layout, Annotations, Baking, each with documented inputs and outputs.",
               image: "/images/study/study_02.png", 
             },
             {
