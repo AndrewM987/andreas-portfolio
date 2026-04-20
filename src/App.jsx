@@ -117,9 +117,9 @@ export default function PortfolioExample() {
         image: "/images/study/study_00.png",
         subtitle: "Automated spatial generation and architectural documentation in Grasshopper",
         description:
-          "A fully automated Grasshopper workflow developed as a personal project exercise. The script generates parametric room configurations across multiple iterations, produces annotated 3D geometry, and outputs unrolled wall layout drawings — all baked into structured Rhino layers in a single pass.",
+          "A fully automated Grasshopper workflow developed as a personal project exercise. The script generates parametric room configurations across multiple iterations, produces annotated 3D geometry, and outputs unrolled wall layout drawings, all baked into structured Rhino layers in a single pass.",
         summary:
-          "One script, two representations: 3D room geometry and flat wall documentation generated simultaneously from a shared parametric data tree.",
+          "3D room geometry & unrolled surfaces generation with documentation.",
         tools: "Grasshopper, Rhino, Elefront, Parametric Design, Data Tree Management",
         details: {
           role: "Script development, data tree architecture, annotation logic, and layer-structured output",
@@ -137,27 +137,27 @@ export default function PortfolioExample() {
             {
               title: "Output Overview",
               caption: "3D room iterations and unrolled wall layouts generated simultaneously in a single automated pass.",
-              image: "/images/study/study_00.png", // → 00.png
+              image: "/images/study/study_00.png", 
             },
             {
               title: "Data Tree Logic",
               caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
-              image: "/images/study/study_01.png", // → 09.png
+              image: "/images/study/study_01.png", 
             },
             {
               title: "Pipeline Structure",
               caption: "The script is organized into discrete, color-coded clusters — Base, Data Structure, 3D Geometry, Layout, Annotations, Baking — each with documented inputs and outputs.",
-              image: "/images/study/study_02.png", // → 10.png
+              image: "/images/study/study_02.png", 
             },
             {
               title: "Individual Wall Sheets",
               caption: "Each wall panel carries its full metadata: iteration index, room ID, wall ID, and cardinal orientation.",
-              image: "/images/study/study_03.png", // → 01.png
+              image: "/images/study/study_03.png", 
             },
             {
               title: "3D Output",
               caption: "3D room iterations and unrolled wall layouts.",
-              image: "/images/study/study_05.png", // → 04.png
+              image: "/images/study/study_05.png", 
             },
           ],
         },
