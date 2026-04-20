@@ -135,33 +135,33 @@ export default function PortfolioExample() {
           ],
           gallery: [
             {
-              title: "Output overview",
+              title: "Output Overview",
               caption: "3D room iterations and unrolled wall layouts generated simultaneously in a single automated pass.",
               image: "/images/study/study_00.png", // → 00.png
             },
             {
-              title: "Data tree logic",
+              title: "Data Tree Logic",
               caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
               image: "/images/study/study_01.png", // → 09.png
             },
             {
-              title: "Pipeline structure",
+              title: "Pipeline Structure",
               caption: "The script is organized into discrete, color-coded clusters — Base, Data Structure, 3D Geometry, Layout, Annotations, Baking — each with documented inputs and outputs.",
               image: "/images/study/study_02.png", // → 10.png
             },
             {
-              title: "Individual wall sheets",
+              title: "Individual Wall Sheets",
               caption: "Each wall panel carries its full metadata: iteration index, room ID, wall ID, and cardinal orientation.",
               image: "/images/study/study_03.png", // → 01.png
             },
             {
-              title: "Pipeline diagram",
+              title: "Pipeline Diagram",
               caption: "The full generation pipeline: parametric inputs flow through base geometry, data structuring, 3D generation, layout unrolling, annotation, and layer baking.",
               image: "/images/study/study_04.png", // → screenshot of the SVG diagram we generated
             },
             {
-              title: "Data tree logic",
-              caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
+              title: "3D Output",
+              caption: "3D room iterations and unrolled wall layouts.",
               image: "/images/study/study_05.png", // → 04.png
             },
           ],
@@ -170,7 +170,7 @@ export default function PortfolioExample() {
       {
         title: "RoboFlow",
         image: "/images/core/core_00.png",
-        subtitle: "Synchronized extrusion system for robotic 3D printing",
+        subtitle: "Synchronized xtrusion system for robotic 3D printing",
         description:
           "RoboFlow is a computational workflow developed to address a fundamental limitation in robotic 3D printing: the mismatch between robotic motion and material extrusion.",
         summary:
@@ -228,13 +228,13 @@ export default function PortfolioExample() {
           ],
           gallery: [
             {
-              title: "Render of topology optimized bridge in the museum selected for a case study",
+              title: "Render of Topology Optimized Bridge in the Museum Selected for a Case Study",
               caption:
                 "Visualization of the optimized structural element applied within an architectural context, demonstrating how algorithm-generated geometries can inform realistic design scenarios in glass construction.",
               image: "/images/thesis/thesis_00.png",
             },
             {
-              title: "Problem statement diagram",
+              title: "Problem Statement Diagram",
               caption:
                 "Diagram illustrating the limitation of conventional topology optimization approaches, highlighting the mismatch between isotropic assumptions and the anisotropic behaviour of 3D-printed glass.",
               image: "/images/thesis/thesis_01.png",
@@ -242,7 +242,7 @@ export default function PortfolioExample() {
 
             // LOOP 1
             {
-              title: "SIMP interpolation & nodal displacement calculation",
+              title: "SIMP Interpolation & Nodal Displacement Calculation",
               caption:
                 "Definition of the finite element system, where element densities are mapped to stiffness through SIMP interpolation and nodal displacements are computed by solving the global equilibrium equation.",
               image: "/images/thesis/thesis_02.png",
@@ -250,7 +250,7 @@ export default function PortfolioExample() {
 
             // LOOP 2
             {
-              title: "Compliance and sensitivity computation",
+              title: "Compliance and Sensitivity Computation",
               caption:
                 "Evaluation of structural performance through element-wise compliance and sensitivity analysis, identifying how changes in density affect the overall objective function.",
               image: "/images/thesis/thesis_03.png",
@@ -258,26 +258,26 @@ export default function PortfolioExample() {
 
             // LOOP 3
             {
-              title: "Filtering and optimality criteria update",
+              title: "Filtering and Optimality Criteria Update",
               caption:
                 "Application of sensitivity filtering to ensure numerical stability, followed by density updates using the Optimality Criteria method to guide the optimization towards convergence.",
               image: "/images/thesis/thesis_04.png",
             },
 
             {
-              title: "Solution logic",
+              title: "Solution Logic",
               caption:
                 "Diagram explaining the integration of transverse isotropy into the FEA formulation, including the modification of the elasticity matrix and its role within the SIMP loop.",
               image: "/images/thesis/thesis_05.png",
             },
             {
-              title: "Interesting findings regarding difference of algorithms",
+              title: "Interesting Findings Regarding Fifference of Algorithms",
               caption:
                 "Comparison between isotropic and anisotropic optimization results, highlighting differences in compliance, structural layout, and stress distribution patterns.",
               image: "/images/thesis/thesis_06.png",
             },
             {
-              title: "Final 3D printed beam render",
+              title: "Final 3D Printed Beam Render",
               caption:
                 "Rendered visualization of the final optimized beam, representing a manufacturable component that aligns computational design with the constraints and behaviour of 3D-printed glass.",
               image: "/images/thesis/thesis_07.png",
