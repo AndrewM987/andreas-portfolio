@@ -210,7 +210,7 @@ export default function PortfolioExample() {
         details: {
           role: "Individual research project involving computational development, scripting, numerical modelling, optimisation logic, structural analysis, and design translation.",
           overview:
-            "The thesis investigates how process-induced anisotropy in 3D-printed glass can be embedded directly into topology optimization workflows. The work focused on modifying the FEA component of a SIMP-based algorithm to incorporate transverse isotropic material behaviour, while also integrating fabrication-aware constraints such as print direction and overhang limitations. Through comparative studies between isotropic and anisotropic formulations, the project demonstrated how structural optimisation can move beyond generic assumptions toward a process-specific computational framework for glass additive manufacturing.",
+            "The thesis investigates how process-induced anisotropy in 3D-printed glass can be embedded directly into topology optimization workflows. The work focuses on modifying the FEA component of a SIMP-based algorithm to incorporate transverse isotropic material behaviour, while integrating fabrication-aware constraints such as print direction and overhang limitations. Through comparative studies between isotropic and anisotropic formulations, the project demonstrates how structural optimisation can move beyond generic assumptions toward a process-specific computational framework for glass additive manufacturing.\n\nThis research addresses a critical gap in the structural design of 3D-printed glass, where conventional topology optimization methods assume isotropic material properties. Such assumptions fail to capture the layer-dependent behaviour introduced by additive manufacturing, including incomplete interlayer fusion and geometry-induced corrugation effects. \n\nThe core contribution of the thesis lies in modifying the Finite Element Analysis (FEA) component of the Solid Isotropic Material with Penalization (SIMP) algorithm to integrate transverse isotropy directly into the optimization loop. The methodology is supported by flexural testing to identify engineered material properties and a comparative evaluation between isotropic and anisotropic optimization approaches.\n\nThe results demonstrate improved structural performance through reduced compliance and more realistic principal stress distributions. The optimized geometries align more closely with the physical behaviour and constraints of 3D-printed glass, effectively bridging computational design with manufacturable, structurally efficient applications.",
           contributors: ["Andreas Mananas"],
           points: [
             "Development of a custom 3D topology optimization workflow in MATLAB",
@@ -232,24 +232,31 @@ export default function PortfolioExample() {
                 "Diagram illustrating the limitation of conventional topology optimization approaches, highlighting the mismatch between isotropic assumptions and the anisotropic behaviour of 3D-printed glass.",
               image: "/images/thesis/thesis_01.png",
             },
+
+            // LOOP 1
             {
-              title: "Topology optimization loop I",
+              title: "SIMP interpolation & nodal displacement calculation",
               caption:
-                "Initial stage of the optimization process, showing material distribution under isotropic assumptions and serving as a baseline for comparison.",
+                "Definition of the finite element system, where element densities are mapped to stiffness through SIMP interpolation and nodal displacements are computed by solving the global equilibrium equation.",
               image: "/images/thesis/thesis_02.png",
             },
+
+            // LOOP 2
             {
-              title: "Topology optimization loop II",
+              title: "Compliance and sensitivity computation",
               caption:
-                "Intermediate stage of the modified algorithm, where anisotropic material properties begin to influence stiffness distribution and structural response.",
+                "Evaluation of structural performance through element-wise compliance and sensitivity analysis, identifying how changes in density affect the overall objective function.",
               image: "/images/thesis/thesis_03.png",
             },
+
+            // LOOP 3
             {
-              title: "Topology optimization loop III",
+              title: "Filtering and optimality criteria update",
               caption:
-                "Final iteration of the optimization loop, demonstrating convergence of the anisotropic model and the emergence of structurally efficient load paths.",
+                "Application of sensitivity filtering to ensure numerical stability, followed by density updates using the Optimality Criteria method to guide the optimization towards convergence.",
               image: "/images/thesis/thesis_04.png",
             },
+
             {
               title: "Solution logic",
               caption:
