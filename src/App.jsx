@@ -56,7 +56,7 @@ export default function PortfolioExample() {
         description:
           "A computational design project exploring how environmental data, behaviour, and fabrication logic can be integrated into a unified parametric workflow.",
         summary:
-          "A voxel-based system linking environmental inputs, spatial logic, and robotic assembly.",
+          "Voxel-based system linking environmental inputs, spatial logic, and robotic assembly.",
         tools: "Rhino, Grasshopper, Robots plugin",
         details: {
           role: "Collaborative project with shared responsibilities. My main contribution focused on developing the parametric system and extending it into fabrication, including Grasshopper setup for voxel geometry and robotic assembly workflows.",
