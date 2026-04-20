@@ -140,18 +140,18 @@ export default function PortfolioExample() {
               image: "/images/study/study_00.png", // → 00.png
             },
             {
-              title: "Wall layout documentation",
-              caption: "Every wall is automatically unrolled, dimensioned, and labeled with its orientation, room ID, and window status.",
+              title: "Data tree logic",
+              caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
               image: "/images/study/study_01.png", // → 09.png
-            },
-            {
-              title: "Individual wall sheets",
-              caption: "Each wall panel carries its full metadata: iteration index, room ID, wall ID, and cardinal orientation.",
-              image: "/images/study/study_02.png", // → 10.png
             },
             {
               title: "Pipeline structure",
               caption: "The script is organized into discrete, color-coded clusters — Base, Data Structure, 3D Geometry, Layout, Annotations, Baking — each with documented inputs and outputs.",
+              image: "/images/study/study_02.png", // → 10.png
+            },
+            {
+              title: "Individual wall sheets",
+              caption: "Each wall panel carries its full metadata: iteration index, room ID, wall ID, and cardinal orientation.",
               image: "/images/study/study_03.png", // → 01.png
             },
             {
