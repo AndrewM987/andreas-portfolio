@@ -91,7 +91,7 @@ export default function PortfolioExample() {
           role: "Part of the structural design team within a multidisciplinary group. My role focused on developing and analysing structural systems for towers and bridging elements, translating architectural intent into feasible strategies, building parametric models, and validating performance through Karamba3D while coordinating with architectural and environmental teams.",
           overview:
             "CAThWALK is a multidisciplinary project developed within the MEGA studio at TU Delft, addressing the transformation of an existing building complex in Utrecht into a mixed-use high-rise development. The proposal integrates vertical extensions, bridging volumes, and programmatic diversification within a dense urban context. A key challenge lies in coordinating complex geometries, long-span connections, and the interaction between new and existing structures. The structural system combines a diagrid strategy for the main tower with a large-scale bridge resolving long-span connections. Parametric modelling was used as a core design tool, enabling continuous interaction between geometry, structural logic, and analysis, allowing iterative refinement and validation throughout the design process.",
-          contributors: ["Thijs Kroft – Architectural Designer,", "Xiaochen Ding – Computational Designer,", "Andrea Mata Celis – Computational Designer,", "Andreas Mananas – Structural Designer,","Annebel van der Meulen – Façade Designer,","Bram van den Berg – Climate Designer,","Evanthia Soumelidou – Project Manager"  ],
+          contributors: ["Thijs Kroft – Architectural Designer,", "Xiaochen Ding – Computational Designer,", "Andrea Mata Celis – Computational Designer,", "Andreas Mananas – Structural Designer,", "Annebel van der Meulen – Façade Designer,", "Bram van den Berg – Climate Designer,", "Evanthia Soumelidou – Project Manager"],
           points: [
             "Parametric modelling used to control complex geometry and enable iterative structural design",
             "Development of structural systems for high-rise and long-span bridge conditions",
@@ -433,8 +433,20 @@ export default function PortfolioExample() {
               </p>
               <div className="mt-6 flex flex-col gap-4 text-neutral-700">
                 <div className="space-y-2">
-                  <p>andreasmananas@gmail.com</p>
-                  <p>www.linkedin.com/in/andreas-mananas</p>
+                  <a
+                    href="mailto:andreasmananas@gmail.com"
+                    className="block transition duration-200 hover:text-neutral-900 hover:underline"
+                  >
+                    andreasmananas@gmail.com
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/andreas-mananas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block transition duration-200 hover:text-neutral-900 hover:underline"
+                  >
+                    linkedin.com/in/andreas-mananas
+                  </a>
                 </div>
 
                 {/* <div className="flex justify-end">
