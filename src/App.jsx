@@ -165,7 +165,7 @@ export default function PortfolioExample() {
       {
         title: "RoboFlow",
         image: "/images/core/core_00.png",
-        subtitle: "Synchronized xtrusion system for robotic 3D printing",
+        subtitle: "Synchronized Extrusion system for robotic 3D printing",
         description:
           "RoboFlow is a computational workflow developed to address a fundamental limitation in robotic 3D printing: the mismatch between robotic motion and material extrusion.",
         summary:
@@ -266,7 +266,7 @@ export default function PortfolioExample() {
               image: "/images/thesis/thesis_05.png",
             },
             {
-              title: "Interesting Findings Regarding Fifference of Algorithms",
+              title: "Findings & Algorithm Comparison",
               caption:
                 "Comparison between isotropic and anisotropic optimization results, highlighting differences in compliance, structural layout, and stress distribution patterns.",
               image: "/images/thesis/thesis_06.png",
