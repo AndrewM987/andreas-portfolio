@@ -83,9 +83,9 @@ export default function PortfolioExample() {
         image: "/images/mega/mega_00-1.png",
         subtitle: "A high-rise structural analysis within a multidisciplinary team",
         description:
-          "A multidisciplinary design project focused on the transformation and extension of an existing building complex in Utrecht, integrating architecture, structure, and environmental performance.",
+          "A multidisciplinary high-rise intervention in Utrecht combining new towers and a bridging structure within an existing urban complex.",
         summary:
-          "A parametric and performance-driven structural contribution within a complex high-rise system.",
+          "Structural and parametric design focused on developing and validating integrated load-bearing systems.",
         tools: "Rhino, Grasshopper, Karamba3D, Revit, Speckle",
         details: {
           role: "Part of the structural design team within a multidisciplinary group. My role focused on developing and analysing structural systems for towers and bridging elements, translating architectural intent into feasible strategies, building parametric models, and validating performance through Karamba3D while coordinating with architectural and environmental teams.",
@@ -173,7 +173,7 @@ export default function PortfolioExample() {
           role: "This project was developed as a collaborative effort, with responsibilities shared across the team and a strong emphasis on hands-on experimentation and iterative development. I contributed to the development of the computational and control workflow connecting robotic motion with material extrusion, working closely with the team across all stages of the process. This included: Structuring the data flow between design, the robot controller, and external hardware, Co-developing the logic for speed-based extrusion control, Processing and analysing robot motion data (TCP positions and speeds), Implementing the synchronization strategy between robot velocity and extrusion rate, Participating in the physical setup, testing, and continuous refinement of both the algorithm and the hardware system. The project involved repeated cycles of prototyping and testing, requiring direct engagement with the robotic setup, material behaviour, and hardware integration. A key aspect of the workflow was bridging simulation and real-world execution, ensuring that the computational model aligned with the robot’s actual behaviour during fabrication.",
           overview:
             "Robotic 3D printing introduces challenges that are not present in conventional additive manufacturing processes. One of the most critical issues is the variation of robotic speed along a toolpath, particularly at corners and transitions between movements. These variations lead to inconsistent material deposition, resulting in defects such as over-extrusion or gaps in the printed geometry. To address this, the project develops a workflow that captures the robot’s actual motion behaviour and uses it to control the extrusion system. Instead of relying on predefined speeds, the system collects real-time data along the robot path, identifying regions of acceleration, deceleration, and constant velocity. Based on this data, the toolpath is refined through the introduction of additional control points, and motion smoothing techniques (zones) are applied to reduce abrupt speed changes. The refined motion data is then used to compute corresponding extrusion parameters, ensuring that the material flow adapts to the robot’s movement. At the core of this process is the relationship between robotic speed and extrusion rate. By expressing both material deposition and motor-driven extrusion through a shared flowrate equation, the system derives a control parameter that allows real-time synchronization between the two. The workflow extends beyond simulation, incorporating a physical setup where the robot controller communicates with an Arduino-based system that translates control signals into motor actuation. This establishes a direct link between digital computation and material behaviour.",
-          contributors: ["Name 1", "Name 2", "Name 3", "Name 4"],
+          contributors: ["Emily Lenarduzzi,", "Ludwika Buczynska,", "Andreas Mananas"],
           points: [
             "Development of a synchronized control system linking robot speed and extrusion rate",
             "Use of real robot data (TCP positions and speeds) instead of purely simulated values",
@@ -200,61 +200,72 @@ export default function PortfolioExample() {
       {
         title: "Topology Optimization for Process-Induced Anisotropy in Glass Structures",
         image: "/images/thesis/thesis_00.png",
-        subtitle: "Leveraging Topology Optimization Algorithms to Address Anisotropic Behaviour Introduced by Additive Manufacturing Methods in Glass Structures",
+        subtitle:
+          "Leveraging Topology Optimization Algorithms to Address Anisotropic Behaviour Introduced by Additive Manufacturing Methods in Glass Structures",
         description:
-          "A research-driven thesis at TU Delft focused on adapting topology optimization for 3D-printed glass, linking finite element analysis, material anisotropy, and additive manufacturing constraints.",
+          "A research-driven thesis at TU Delft investigating how topology optimization can be adapted to account for process-induced anisotropic behaviour in 3D-printed glass.",
         summary:
-          "A computational framework combining structural optimisation with fabrication-aware logic for 3D-printed glass.",
-        tools: "MATLAB, FEA, Topology optimization, Additive manufacturing",
+          "Introduces a modified optimization workflow where material directionality and fabrication constraints directly influence structural form generation.",
+        tools: "MATLAB, Python, Rhino, Grasshopper, ANSYS, LaTeX",
         details: {
-          role: "Research, scripting, numerical modelling, optimisation logic, and structural analysis",
+          role: "Individual research project involving computational development, scripting, numerical modelling, optimisation logic, structural analysis, and design translation.",
           overview:
-            "The thesis focused on developing and adapting a 3D topology optimization workflow for glass additive manufacturing. The work combined SIMP-based optimisation, finite element analysis, anisotropic material behaviour, and manufacturing-aware constraints in order to move from generic optimisation toward a process-specific computational framework.",
+            "The thesis investigates how process-induced anisotropy in 3D-printed glass can be embedded directly into topology optimization workflows. The work focused on modifying the FEA component of a SIMP-based algorithm to incorporate transverse isotropic material behaviour, while also integrating fabrication-aware constraints such as print direction and overhang limitations. Through comparative studies between isotropic and anisotropic formulations, the project demonstrated how structural optimisation can move beyond generic assumptions toward a process-specific computational framework for glass additive manufacturing.",
           contributors: ["Andreas Mananas"],
           points: [
             "Development of a custom 3D topology optimization workflow in MATLAB",
-            "Integration of anisotropic material behaviour and manufacturing constraints into the optimisation logic",
-            "Translation of structural and fabrication research into a clear computational design framework",
+            "Modification of the FEA formulation to incorporate transverse isotropic material behaviour",
+            "Comparative analysis between isotropic and anisotropic optimisation strategies",
+            "Evaluation of results through compliance metrics and principal stress distribution",
+            "Translation of structural and fabrication research into a coherent computational design framework",
           ],
           gallery: [
             {
-              title: "Hero image",
-              caption: "Main project image placeholder.",
+              title: "Render of topology optimized bridge in the museum selected for a case study",
+              caption:
+                "Visualization of the optimized structural element applied within an architectural context, demonstrating how algorithm-generated geometries can inform realistic design scenarios in glass construction.",
               image: "/images/thesis/thesis_00.png",
             },
             {
-              title: "Material 2",
-              caption: "Additional project material.",
+              title: "Problem statement diagram",
+              caption:
+                "Diagram illustrating the limitation of conventional topology optimization approaches, highlighting the mismatch between isotropic assumptions and the anisotropic behaviour of 3D-printed glass.",
               image: "/images/thesis/thesis_01.png",
             },
             {
-              title: "Material 3",
-              caption: "Additional project material.",
+              title: "Topology optimization loop I",
+              caption:
+                "Initial stage of the optimization process, showing material distribution under isotropic assumptions and serving as a baseline for comparison.",
               image: "/images/thesis/thesis_02.png",
             },
             {
-              title: "Material 4",
-              caption: "Additional project material.",
+              title: "Topology optimization loop II",
+              caption:
+                "Intermediate stage of the modified algorithm, where anisotropic material properties begin to influence stiffness distribution and structural response.",
               image: "/images/thesis/thesis_03.png",
             },
             {
-              title: "Material 5",
-              caption: "Additional project material.",
+              title: "Topology optimization loop III",
+              caption:
+                "Final iteration of the optimization loop, demonstrating convergence of the anisotropic model and the emergence of structurally efficient load paths.",
               image: "/images/thesis/thesis_04.png",
             },
             {
-              title: "Material 5",
-              caption: "Additional project material.",
+              title: "Solution logic",
+              caption:
+                "Diagram explaining the integration of transverse isotropy into the FEA formulation, including the modification of the elasticity matrix and its role within the SIMP loop.",
               image: "/images/thesis/thesis_05.png",
             },
             {
-              title: "Material 5",
-              caption: "Additional project material.",
+              title: "Interesting findings regarding difference of algorithms",
+              caption:
+                "Comparison between isotropic and anisotropic optimization results, highlighting differences in compliance, structural layout, and stress distribution patterns.",
               image: "/images/thesis/thesis_06.png",
             },
             {
-              title: "Material 5",
-              caption: "Additional project material.",
+              title: "Final 3D printed beam render",
+              caption:
+                "Rendered visualization of the final optimized beam, representing a manufacturable component that aligns computational design with the constraints and behaviour of 3D-printed glass.",
               image: "/images/thesis/thesis_07.png",
             },
           ],
