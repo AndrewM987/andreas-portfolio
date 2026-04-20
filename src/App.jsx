@@ -113,49 +113,56 @@ export default function PortfolioExample() {
         },
       },
       {
-        title: "Grasshopper Fabrication Study",
-        image: null,
-        subtitle: "Fabrication-oriented spatial configuration script",
+        title: "Parametric Room Documentation System",
+        image: "/images/study/study_00.png",
+        subtitle: "Automated spatial generation and architectural documentation in Grasshopper",
         description:
-          "A Grasshopper-based fabrication study for generating room configurations under defined constraints and preparing them for fabrication with the relevant attached data.",
+          "A fully automated Grasshopper workflow developed as a personal project exercise. The script generates parametric room configurations across multiple iterations, produces annotated 3D geometry, and outputs unrolled wall layout drawings — all baked into structured Rhino layers in a single pass.",
         summary:
-          "A compact workflow linking rule-based spatial generation with fabrication-ready information.",
-        tools: "Grasshopper, Parametric design, Fabrication logic",
+          "One script, two representations: 3D room geometry and flat wall documentation generated simultaneously from a shared parametric data tree.",
+        tools: "Grasshopper, Rhino, Elefront, Parametric Design, Data Tree Management",
         details: {
-          role: "Script development, rule definition, and fabrication-oriented data structuring",
+          role: "Script development, data tree architecture, annotation logic, and layer-structured output",
           overview:
-            "This project will be expanded once the final material is added. It will likely focus on how a constrained generative system can produce spatial variations while also attaching the indices and information needed for downstream fabrication.",
+            "Developed as a personal project exercise, this script was made to stretch script efficiency, data tree fluency, and extensibility. The solution uses a three-level data tree {i;j;k} — indexing iteration, room, and wall orientation — maintained consistently across 3D geometry generation, unrolled layout drawings, dimension annotations, and Elefront-driven Rhino layer baking. A dispatch logic block distinguishes inner from outer walls to place windows only where structurally appropriate. All outputs are generated in a single automated pass from a unified set of parametric controls, with no manual intervention required between stages.",
           contributors: ["Andreas Mananas"],
           points: [
-            "Constraint-based room generation",
-            "Fabrication-ready output with attached identifiers and metadata",
-            "A lightweight but clear computational workflow",
+            "Three-level data tree {i;j;k} structure spanning geometry, layout, and annotations",
+            "Automated window placement via inner/outer wall dispatch logic",
+            "Simultaneous output of 3D models and unrolled wall documentation",
+            "Elefront-powered baking into named Rhino layers with annotation styles",
+            "Fully parametric: any input change cascades through all downstream outputs automatically",
           ],
           gallery: [
             {
-              title: "Hero image",
-              caption: "Main project image placeholder.",
-              image: null,
+              title: "Output overview",
+              caption: "3D room iterations and unrolled wall layouts generated simultaneously in a single automated pass.",
+              image: "/images/study/study_00.png", // → 00.png
             },
             {
-              title: "Material 2",
-              caption: "Additional project material.",
-              image: null,
+              title: "Wall layout documentation",
+              caption: "Every wall is automatically unrolled, dimensioned, and labeled with its orientation, room ID, and window status.",
+              image: "/images/study/study_01.png", // → 09.png
             },
             {
-              title: "Material 3",
-              caption: "Additional project material.",
-              image: null,
+              title: "Individual wall sheets",
+              caption: "Each wall panel carries its full metadata: iteration index, room ID, wall ID, and cardinal orientation.",
+              image: "/images/study/study_02.png", // → 10.png
             },
             {
-              title: "Material 4",
-              caption: "Additional project material.",
-              image: null,
+              title: "Pipeline structure",
+              caption: "The script is organized into discrete, color-coded clusters — Base, Data Structure, 3D Geometry, Layout, Annotations, Baking — each with documented inputs and outputs.",
+              image: "/images/study/study_03.png", // → 01.png
             },
             {
-              title: "Material 5",
-              caption: "Additional project material.",
-              image: null,
+              title: "Pipeline diagram",
+              caption: "The full generation pipeline: parametric inputs flow through base geometry, data structuring, 3D generation, layout unrolling, annotation, and layer baking.",
+              image: "/images/study/study_04.png", // → screenshot of the SVG diagram we generated
+            },
+            {
+              title: "Data tree logic",
+              caption: "A three-level tree {i;j;k} indexes iteration, room, and wall orientation consistently across every stage — geometry, layout, and annotations share the same structure.",
+              image: "/images/study/study_05.png", // → 04.png
             },
           ],
         },
