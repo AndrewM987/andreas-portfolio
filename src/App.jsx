@@ -124,7 +124,7 @@ export default function PortfolioExample() {
         details: {
           role: "Script development, data tree architecture, annotation logic, and layer-structured output",
           overview:
-            "Developed as a personal project exercise, this script was made to stretch script efficiency, data tree fluency, and extensibility. The solution uses a three-level data tree {i;j;k} — indexing iteration, room, and wall orientation — maintained consistently across 3D geometry generation, unrolled layout drawings, dimension annotations, and Elefront-driven Rhino layer baking. A dispatch logic block distinguishes inner from outer walls to place windows only where structurally appropriate. All outputs are generated in a single automated pass from a unified set of parametric controls, with no manual intervention required between stages.",
+            "Developed as a personal project exercise, this script was made to stretch script efficiency, data tree fluency, and extensibility. The solution uses a three-level data tree {i;j;k}, indexing iteration, room, and wall orientation, maintained consistently across 3D geometry generation, unrolled layout drawings, dimension annotations, and Elefront-driven Rhino layer baking. A dispatch logic block distinguishes inner from outer walls to place windows only where structurally appropriate. All outputs are generated in a single automated pass from a unified set of parametric controls, with no manual intervention required between stages.",
           contributors: ["Andreas Mananas"],
           points: [
             "Three-level data tree {i;j;k} structure spanning geometry, layout, and annotations",
@@ -312,7 +312,7 @@ export default function PortfolioExample() {
         <section className="mx-auto w-full max-w-[1380px] px-6 md:px-8 lg:px-10 xl:px-12 py-16 md:py-20 xl:py-24">
           <div className="grid gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:gap-14 xl:gap-16">
             <div>
-              <p className="mb-4 text-sm uppercase tracking-[0.25em] text-neutral-500">
+              <p className="mb-4 text-2xl uppercase tracking-[0.2em] text-neutral-500">
                 Andreas Mananas
               </p>
               <h1 className="max-w-4xl text-4xl leading-[1.02] tracking-tight md:text-5xl xl:text-[3.5rem]">
