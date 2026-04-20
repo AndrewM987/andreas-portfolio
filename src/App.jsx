@@ -155,11 +155,6 @@ export default function PortfolioExample() {
               image: "/images/study/study_03.png", // → 01.png
             },
             {
-              title: "Pipeline Diagram",
-              caption: "The full generation pipeline: parametric inputs flow through base geometry, data structuring, 3D generation, layout unrolling, annotation, and layer baking.",
-              image: "/images/study/study_04.png", // → screenshot of the SVG diagram we generated
-            },
-            {
               title: "3D Output",
               caption: "3D room iterations and unrolled wall layouts.",
               image: "/images/study/study_05.png", // → 04.png
@@ -250,7 +245,7 @@ export default function PortfolioExample() {
 
             // LOOP 2
             {
-              title: "Compliance and Sensitivity Computation",
+              title: "Compliance & Sensitivity Computation",
               caption:
                 "Evaluation of structural performance through element-wise compliance and sensitivity analysis, identifying how changes in density affect the overall objective function.",
               image: "/images/thesis/thesis_03.png",
@@ -258,14 +253,14 @@ export default function PortfolioExample() {
 
             // LOOP 3
             {
-              title: "Filtering and Optimality Criteria Update",
+              title: "Filtering & Optimality Criteria Update",
               caption:
                 "Application of sensitivity filtering to ensure numerical stability, followed by density updates using the Optimality Criteria method to guide the optimization towards convergence.",
               image: "/images/thesis/thesis_04.png",
             },
 
             {
-              title: "Solution Logic",
+              title: "Suggested Solution",
               caption:
                 "Diagram explaining the integration of transverse isotropy into the FEA formulation, including the modification of the elasticity matrix and its role within the SIMP loop.",
               image: "/images/thesis/thesis_05.png",
@@ -442,7 +437,7 @@ export default function PortfolioExample() {
                   <p>www.linkedin.com/in/andreas-mananas</p>
                 </div>
 
-                <div className="flex justify-end">
+                {/* <div className="flex justify-end">
                   <a
                     href="/images/cv/CV_Andreas_Mananas.pdf"
                     download
@@ -451,7 +446,7 @@ export default function PortfolioExample() {
                     <span>Download CV</span>
                     <span className="text-xs opacity-60">PDF</span>
                   </a>
-                </div>
+                 </div>*/}
               </div>
             </div>
           </div>
