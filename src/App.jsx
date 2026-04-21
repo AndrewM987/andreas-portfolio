@@ -200,7 +200,7 @@ export default function PortfolioExample() {
         },
       },
       {
-        title: "Topology Optimization for Process-Induced Anisotropy in Glass Structures",
+        title: "Topology Optimization for Process-Induced Anisotropy in Glass Structures (MSc - Thesis)",
         image: "/images/thesis/thesis_00.png",
         subtitle:
           "Leveraging Topology Optimization Algorithms to Address Anisotropic Behaviour Introduced by Additive Manufacturing Methods in Glass Structures",
